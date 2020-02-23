@@ -1,0 +1,38 @@
+---
+webTitle: 'Lalaland'
+webDescription: 'lalalalland'
+
+
+title: Started pages
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+  {# partial example #}
+  {% include "partials/_header.html" %}
+
+  <main class="main">
+    <div class="wrapper">
+      <div class="container" id="container"></div>
+    </div>
+  </main>
+
+  {# variable example #}
+  {# <h1>312{{title}}1</h1> #}
+
+  {# mixin example #}
+  {# {{mixins.icon('facebook')}} #}
+
+  {# data usage example #}
+  {# {% import "data/data.html" as tests %}
+
+  {% for test in tests.list %}
+    <li>{{test.title}}</li>
+  {% endfor %} #}
+  {# end of example #}
+
+  {# partial example #}
+  {% include "partials/_footer.html" %}
+
+{% endblock %}

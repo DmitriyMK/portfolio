@@ -1,0 +1,32 @@
+@media (max-width: $desktop-xl) {
+}
+
+@media (max-width: $desktop) {
+}
+
+@media (max-width: $laptop) {
+}
+
+@media (max-width: $tablet) {
+}
+
+@media (max-width: $note) {
+}
+
+@media (max-width: $phone-xl) {
+}
+
+@include respond-to(phone) {
+}
+@include respond-to(phone-xl) {
+}
+@include respond-to(note) {
+}
+@include respond-to(tablet) {
+}
+@include respond-to(laptop) {
+}
+@include respond-to(desktop) {
+}
+@include respond-to(desktop-xl) {
+}

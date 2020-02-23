@@ -1,0 +1,46 @@
+@import "_vars";
+@import "_mixin and function";
+
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767.98px) {
+  .nav {
+    // position: fixed;
+    // z-index: 100;
+    &__list {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      height: 100vh;
+      padding: 20vh 0;
+      .hide__mob {
+        display: none;
+      }
+    }
+    &__item {
+    }
+    &__link {
+      display: block;
+      text-transform: uppercase;
+    }
+  }
+  .overlay {
+    position: absolute;
+    width: 220px;
+    height: 100vh;
+    top: 0;
+    left: -305px;
+    background: rgba(#343a3d, 0.9);
+    z-index: 1000;
+    overflow-y: scroll;
+    transition: all 0.3s linear;
+
+    .wrapper {
+      padding: 0;
+    }
+  }
+  .open {
+    transform: translateX(300px);
+    transition-duration: 0.3s;
+    position: fixed;
+  }
+}

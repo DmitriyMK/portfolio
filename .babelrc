@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browserslist": "> 0.25%, not dead",
+          "esmodules": true
+        }
+      }
+    ]
+  ]
+}
