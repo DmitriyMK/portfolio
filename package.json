@@ -74,7 +74,7 @@
     "gsap": "^3.2.0",
     "gulp-hub": "^4.2.0",
     "gulp-load-plugins": "^1.5.0",
-    "three": "^0.113.2",
+    "three": "^0.137.0",
     "three-orbit-controls": "^82.1.0",
     "webpack-stream": "^5.2.1"
   }
